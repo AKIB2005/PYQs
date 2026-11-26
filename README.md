@@ -25,17 +25,16 @@ CAO also includes a combined Computer Architecture and Operating Systems paper. 
 ## Repository structure
 
 ```text
-CAO/<year>/                 Architecture papers
-CAO/<year>/Additional-Copies/  Preserved exact duplicate copies
-DBMS/<year>/                Database papers
-TOC/<year>/                 Computation papers and source webpages
+CAO/                        Architecture papers and retained copies
+DBMS/                       Database papers
+TOC/                        Computation papers and source webpages
 reports/                    Audit, inventory and duplicate report
 README.md
 ```
 
 ## Available resources
 
-The collection contains 27 distinct PDF files and 2 saved HTML source pages. Seven additional PDF copies are retained pending any future deletion approval. Papers cover semesters 3, 4 and 5 as identified in filenames.
+The collection contains 27 distinct PDF files and 2 saved HTML source pages. Seven additional PDF copies are retained with an `-additional-copy` filename suffix pending any future deletion approval. Papers cover semesters 3, 4 and 5 as identified in filenames.
 
 PDFs may be scanned and may not support text search. Files ending in `-source-page.html` are saved website pages rather than offline PDF papers; their embedded content and assets may need an internet connection. No solutions or complete syllabus coverage are guaranteed.
 
@@ -43,7 +42,7 @@ See the [audit](reports/AUDIT.md), [resource inventory and move manifest](report
 
 ## Contributing
 
-1. Add academic resources to the appropriate subject and exam-year folder. Explain uncertain classifications in your pull request.
+1. Add academic resources to the appropriate subject folder. Explain uncertain classifications in your pull request.
 2. Use readable lowercase hyphenated filenames that retain branch, semester, subject, course code and exam session where known.
 3. Check SHA-256 hashes before adding copies, and open the document to check readability.
 4. Preserve distinct versions and obtain approval before removing existing resources. Update navigation and counts when adding material.
